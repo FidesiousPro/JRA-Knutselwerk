@@ -7,5 +7,12 @@
             "path": "App"
         }
     ],
-    "settings": {}
+    "settings": {
+        "al.codeAnalyzers": [
+            "${AppSourceCop}",
+            "${CodeCop}",
+            "${UICop}"
+        ],
+        "al.enableCodeAnalysis": true
+    }
 }

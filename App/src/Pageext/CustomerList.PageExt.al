@@ -6,7 +6,7 @@ namespace DefaultPublisher.JRAKnutselwerk;
 
 using Microsoft.Sales.Customer;
 
-pageextension 50100 CustomerList extends "Customer List"
+pageextension 50000 CustomerList extends "Customer List"
 {
     trigger OnOpenPage();
     begin

@@ -1,32 +1,34 @@
 {
   "id": "0c78d7a8-a46f-4882-9d7b-0ec67999576d",
   "name": "JRA-Knutselwerk",
-  "publisher": "Default Publisher",
+  "publisher": "FidesiousPro",
   "version": "1.0.0.0",
-  "brief": "",
-  "description": "",
-  "privacyStatement": "",
-  "EULA": "",
-  "help": "",
-  "url": "",
-  "logo": "",
+  "brief": "Added message to Customer List",
+  "description": "When opening the customer list a Hello Message will be deisplayed",
+  "privacyStatement": "https://fidesiouspro.nl/privacy",
+  "EULA": "https://fidesiouspro.nl/eula",
+  "help": "https://fidesiouspro.nl/help",
+  "contextSensitiveHelpUrl": "https://fidesiouspro.nl/help",
+  "url": "https://fidesiouspro.nl/",
+  "logo": ".\\Logo\\logo.png",
   "dependencies": [],
   "screenshots": [],
   "platform": "1.0.0.0",
   "application": "23.0.0.0",
   "idRanges": [
     {
-      "from": 50100,
-      "to": 50149
+      "from": 50000,
+      "to": 50001
     }
   ],
   "resourceExposurePolicy": {
     "allowDebugging": true,
-    "allowDownloadingSource": true,
+    "allowDownloadingSource": false,
     "includeSourceInSymbolFile": true
   },
   "runtime": "12.1",
   "features": [
-    "NoImplicitWith"
+    "NoImplicitWith",
+    "TranslationFile"
   ]
 }
